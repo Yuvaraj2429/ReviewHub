@@ -1,0 +1,594 @@
+
+.navbarcolor{
+  background-color:#7393a2;
+}
+.me-auto{
+  padding-left:35em !important;
+  font-size:16px;
+  font-weight: 600;
+  font-family:"Karla";
+  text-transform: uppercase;
+
+}
+.special{
+  height:480px;
+}
+.lottie{
+  justify-content: center;
+  display: flex;
+  padding-top: 40px;
+}
+#footer {
+    
+    bottom: 0;
+    width: 100%;
+    height:300px;
+    background-color: #262628;
+    color:#fff;
+    padding-top: 30px;
+    font-family: 'Raleway';
+    }
+    .footercenter{
+      text-align: center;
+      display: block;
+
+
+    }
+    hr.solid {
+      border-top: 3px solid #4175a4;
+      width:40px;
+      margin-left:130px;
+    }
+    li{
+      list-style-type:none;
+      text-align: center;
+      margin-right:20px;
+    }
+    .final{
+      background-color: #1d1c1c;
+      text-align: center;
+      padding: 20px;
+      font-family: 'El Messiri';
+      letter-spacing:1 em;
+      font-size:15px;
+      font-weight: 600;
+      color:#fff;
+    }
+    .mylink{
+      color:#9c9c9c;
+
+    }
+    .last a{
+      color:#9c9c9c;
+      text-decoration: none;
+    }
+   .last a:hover{
+      color:#7393a2;
+    }
+    .mylink a:hover{
+      color:#7393a2;
+    }
+    .footercenter li{
+      padding: 5px;
+      font-family: 'Rubik';
+    }
+    .footercenter h4{
+      color:#ffffff;
+      font-size: 25px;
+      font-weight: 600;
+      
+    }
+    .ribbon{
+      background-color:#4175a4;
+      padding-top:30px;
+      padding-bottom: 30px;
+      align-items: center;
+
+    }
+    .inside{
+      font-size:35px;
+      color:#fff;
+      padding-left: 50px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+    }
+    .footer-btn{
+      background-color: #fff;
+      border: none !important;
+      color: #000 !important;
+      padding: 5px 10px;
+
+    }
+    .footer-btn a{
+        text-decoration: none;
+        border: none !important;
+        color: #000 !important;
+        font-family: Rubik;
+        padding: 5px 10px;
+    }
+    .mask{
+      font-family:'Trebuchet MS';
+      font-size:30px;
+      font-weight: 700;
+      color:#3b3b3b;
+      padding: 20px 0px;
+    }
+   
+    .flicker {
+      padding-top: 20px;
+      font-size: 6rem;
+      font-family: 'El Messiri';
+      font-weight:400;
+      margin: 1rem auto;
+      color: #8fc0d6d7;
+      background: -webkit-gradient(linear, left top, right top, from(#64ca8b), to(#f30202), color-stop(0.8, #17ff51)) no-repeat;
+      background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #080505)) no-repeat;
+      background-size: 110px 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      animation: flick 1.5s infinite;
+    }
+    @keyframes flick {
+      0% {
+        background-position: top left;
+      }
+      100% {
+        background-position: top right;
+      }
+    }
+    .desc{
+      font-family:'Jost';
+      font-size: 20px;
+      color: #3a3737;
+    }
+    .read {
+      padding-top: 20px;
+      text-decoration: none;
+    }
+    .my{
+      color:#ffffff;
+      text-decoration: none;
+      font-family: "Jost";
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing:1px;
+    }
+    
+    .card:hover {
+      border: 2px solid rgb(65, 65, 65);
+    }
+
+    .category {
+      position: relative;
+      background:linear-gradient(-55deg, #86abbd 29%, #7393a2 29.1%, #7393a2 68%, #86abbd 68.1%);
+      height:600px;
+      animation: slideInRight 1s forwards;
+      opacity: 0;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .cat{
+      justify-content: center;
+      display: flex;
+      
+    }
+    .exp{
+      width:100px;
+   height:100px;
+   background-color:rgb(255, 255, 255);
+   display:flex;
+   align-items:center;
+   padding:11px;
+   border-radius:51%;
+   box-sizing:border-box;
+   justify-content: center;
+  box-shadow: -9px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+
+  
+    .write{
+      
+      font-family: 'El Messiri';
+      font-size: 22px;
+      color:#fff;
+      padding-top: 5px;
+      text-align: center;
+    }
+    .section2 {
+      position: absolute;
+      right: -600px;
+      width: 600px;
+      height: 550px;
+      -webkit-animation: slide 0.5s forwards;
+      -webkit-animation-delay: 2s;
+      animation: slide 0.5s forwards;
+      animation-delay: 2s;
+  }
+  .col-md-3{
+    justify-content: center;
+    display: flex;
+  }
+  
+  @-webkit-keyframes slide {
+      100% { right: 0; }
+  }
+  
+  @keyframes slide {
+      100% { right: 0; }
+  }
+  
+ 
+    
+    @keyframes slideInRight {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
+    .prime{
+        width:512px;
+        height:512px;
+    }
+    * {
+        margin: 0;
+        padding: 0
+    }
+    
+    body {
+        background-color: #f2eae3
+    }
+    
+    .name {
+        font-size: 16px;
+        color: #e83d16 !important;
+        font-weight: 500
+    }
+    
+    .navbar-toggler {
+        font-size: 15px
+    }
+    
+    .nav-link {
+        font-size: 14px;
+        color: #000 !important;
+        font-weight: bold;
+        margin-left: 40px
+    }
+    
+    .form-control {
+        height: 32px;
+        width: 100%;
+        border-radius: 20px;
+        color: #c7c6cb;
+        font-size: 13px;
+        border: none
+    }
+    
+    .searchitem {
+        position: relative
+    }
+    
+    .searchitem i {
+        position: absolute;
+        right: 18px;
+        top: 10px;
+        font-size: 13px
+    }
+    
+    .btn {
+        height: 35px;
+        width: 170px;
+        border: none;
+        border-radius: 20px;
+        background-color: #633a9c;
+        font-size: 14px;
+        font-weight: 500
+    }
+    
+    .text {
+        font-size: 23px;
+        font-weight: bold
+    }
+  
+    .card {
+        height: 130px;
+        overflow: hidden;
+        border: none;
+        border-radius:5 !important;
+        
+    }
+    .card5{
+      background-color:white;
+      padding: 20px;
+    }
+    .imagename{
+      font-family: 'Rubik' !important;
+      font-size: 25px !important;
+    }
+    #box{
+      border-radius: 50% !important;
+    }
+    
+    .imagename {
+        font-size: 14px;
+        font-weight: bold
+    }
+    .hero{
+        background-color: #7393a2 !important;
+        padding-top: 20px !important;
+        padding-bottom:20px !important;
+        
+        
+    }
+    #navbarNav{
+        padding-left:60%;
+        
+    }
+    .sticky-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Style for the form and list items */
+.topreview{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color:#7393a2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Add this CSS to the existing styles.css or create a new file ReviewDisplay.css */
+.review-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .review-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .review-list li {
+    padding: 10px;
+  
+  }
+  
+  .review-list h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .review-list p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Highlight the review items on hover */
+  .review-list li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+body{
+  overflow-x: hidden;
+}
+.banner-main{
+  background-color:#86abbd;
+  width:auto;
+  height:250px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#fff;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ 
+}
+.submit{
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+}
+.post{
+  margin-bottom: 30px;
+}
+.master{
+  margin-bottom: 60px;
+  
+
+}
+.latest {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.no{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mystery{
+  border:1px solid black;
+ margin-right: 30px;
+ margin-left: 30px;
+ padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #d2dde7;
+}
+.homereviews{
+  background-color:#d4d4d4;
+}
+.homereviews h3,h5,h6{
+  font-family: "Raleway"
+} 
+.homereviews p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  
+} 
+/*Mobile View*/
+@media (max-width: 480px) {
+  .special {
+    position: relative;
+   
+    height:650px;
+    animation: slideInRight 5s forwards;
+    opacity: 0;
+  }
+  .prime{
+    width:312px;
+    height:312px;
+}
+.flicker {
+  padding-top: 0px;
+  font-size:40px;
+  font-family: 'El Messiri';
+  text-align: center;
+  margin: 1rem auto;
+  color: #6a899b;
+  background: -webkit-gradient(linear, left top, right top, from(#1d1d1d), to(#6b8d97), color-stop(0.8, #89a3c2)) no-repeat;
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #5c7888)) no-repeat;
+  background-size: 110px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: flick 1.5s infinite;
+}
+
+#footer {
+    
+  bottom: 0;
+  width: 100%;
+  height:1000px;
+  background-color: #262628;
+  color:#fff;
+  padding-top: 30px;
+  font-family: 'Raleway';
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .section2 {
+    width: 100%;
+    right: 0px;
+    padding: 10px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+.mask{
+  text-align: center;
+  font-size: 20px;
+}
+.inside{
+  text-align: center;
+  padding-left: 0px;
+}
+.footer-btn{
+  background-color: #fff;
+  border: none !important;
+  color: #000 !important;
+
+margin-top: 40px;
+justify-content: center;
+display: flex;
+text-align: center;
+ 
+}
+.footer-btn a{
+    text-decoration: none;
+    border: none !important;
+    color: #000 !important;
+    font-family: Rubik;
+    padding: 5px 10px;
+}
+hr.solid {
+  border-top: 3px solid #4175a4;
+  width:40px;
+  margin-left:100px;
+}
+ 
+html {
+  overflow-x: hidden;
+}
+.category {
+  position: relative;
+  animation: slideInRight 1s forwards;
+  opacity: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height:1700px;
+}
+
+
+}
